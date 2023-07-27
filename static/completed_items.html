@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Completed Items</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Completed To-Do Items</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in completeList %}
+            <tr>
+                <td>
+                  <span>{{item.title}}</span>
+                  <span class="date">{{item.completed_at}}</span>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

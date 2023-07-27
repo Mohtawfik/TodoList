@@ -1,0 +1,117 @@
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0084b4;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0084b4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006d93;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.completed-todo {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.button-container button {
+    margin-left: 5px;
+}
+
+/* table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.deleted-at {
+  font-style: italic;
+  color: #888;
+  margin-left: 10px;
+  text-align: center;
+  flex-grow: 1;
+} */
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px dashed #ccc;
+  padding: 10px;
+  /* text-align: left; */
+}
+td {
+  text-align: left;
+}
+
+.date {
+  font-style: italic;
+  color: #888;
+  margin-left: 10px;
+  text-align: right;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
